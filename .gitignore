@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Resolving Detours library folders ignored due to x64/x86 rules
+!Detours/X64/
+!Detours/X64/**
+!Detours/X86/
+!Detours/X86/**
